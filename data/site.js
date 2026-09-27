@@ -5,11 +5,11 @@ export const site = {
   tagline: "NDIS supports built around the life you want.",
   description:
     "A registered NDIS provider in Perth, Western Australia, offering supported independent living, recovery accommodation, support coordination, psychosocial recovery coaching, short term stays and community participation.",
-  url: "https://www.gmcservices.net.au",
+  url: "https://www.gmccareservices.com.au",
   abn: "14 659 977 876",
   phone: "0404 185 123",
   phoneHref: "tel:+61404185123",
-  email: "info@gmcservices.net.au",
+  email: "info@gmccareservices.com.au",
   address: {
     street: "25 Hayford Road",
     suburb: "Haynes",

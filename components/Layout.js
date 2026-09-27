@@ -115,7 +115,8 @@ export default function Layout({
       <header className={`header ${stuck ? "is-stuck" : ""}`}>
         <div className="wrap header__inner">
           <Link href="/" className="brand" aria-label={`${site.name} home`}>
-            Grace <span>&amp;</span> Mercy
+            <img src="/images/icon-mark.png" alt="" className="brand__mark" width={40} height={33} loading="eager" />
+            <span className="brand__text">Grace <span>&amp;</span> Mercy Care Services</span>
           </Link>
 
           <nav className="nav" aria-label="Main">
@@ -177,7 +178,8 @@ export default function Layout({
         >
           <div className="mobile-nav__head">
             <span className="brand" style={{ fontSize: "1.05rem" }}>
-              Grace <span>&amp;</span> Mercy
+              <img src="/images/icon-mark.png" alt="" className="brand__mark" width={32} height={26} />
+              <span className="brand__text">Grace <span>&amp;</span> Mercy Care Services</span>
             </span>
             <button
               type="button"
